@@ -14,7 +14,7 @@ Password Hash: $2y$10$qaDMKKdnOXk17xdGQsixte4LYN8f1v4vkdYwj80w.FwnnSfQOLk6e
 
 # Hashing Algorithms
 
-- default: As of PHP 5.5.0 this uses bycrypt with a default cost of 60
+- default: As of PHP 5.5.0 this uses bycrypt with a default cost of 10
 - bycrypt: Uses the blowfish to to generate a standard crypt compatiable hash.
 - argon2i: Uses the Argon2i hashing algorithm (requires: ext-sodium or ext-libargon2)
 - argon2id: Uses the Argon2id hashing algorithm (requires: ext-sodium or ext-libargon2)
