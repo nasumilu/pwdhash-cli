@@ -12,6 +12,16 @@ Choose an hashing algorithm (default, bcrypt, argon2i, argon2id) [default]:
 Password Hash: $2y$10$qaDMKKdnOXk17xdGQsixte4LYN8f1v4vkdYwj80w.FwnnSfQOLk6e
 ```
 
+or
+
+```shell
+$ cd src/
+$ php pwd_hasher.php
+Enter a password: [the password to hash]
+Choose an hashing algorithm (default, bcrypt, argon2i, argon2id) [default]: 
+Password Hash: $2y$10$VJUXRqd9oCJUKWtvk1Kcremv7VAlNHU1vvJ4tgquEDLt9KRQspoIO
+```
+
 # Hashing Algorithms
 
 - default: As of PHP 5.5.0 this uses bycrypt with a default cost of 10
